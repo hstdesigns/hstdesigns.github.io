@@ -1,0 +1,48 @@
+/* add your CSS here */
+        .border{
+            border-style: solid;
+            border-width: 1px;
+            border-color: #f0f0f0;
+        }
+        
+        .card-animal{
+            text-align: left;
+            width: 300px;
+                        
+            padding: 0px 20px 20px 20px;
+            
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.15);
+        }
+        
+        .image{
+            filter: grayscale(100%);
+	        transition: .3s ease-in-out;
+        }
+        
+        .image:hover {
+            filter: grayscale(0);
+        }
+        
+        .figure-text{            
+            padding: 10px;
+            
+            background-color: #fafafa;
+        }
+        
+        .short-text{
+            font-style: italic;
+        }
+        
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        ul span{
+            font-weight: bold;
+        }
+        
+        .long-text{
+            
+        }
