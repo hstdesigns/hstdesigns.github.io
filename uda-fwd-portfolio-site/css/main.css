@@ -88,16 +88,11 @@ footer {
     border-top: 1px solid #7d97ad;
 }
 
-[class*="zocial-"]:before {
+[class*="fa-"]:before {
     color: black;
     display: inline-block;
-    font-family: 'zocial', sans-serif;
     text-shadow: 3px 3px 3px #aaa;
     width: 2em;
-}
-
-a:hover [class*="zocial-"]:before {
-    color: #3d85c6;
 }
 
 div#social {
